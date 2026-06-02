@@ -1,0 +1,245 @@
+@font-face {
+  font-family: "flaticon";
+  src: url('flaticon.eot');
+  src: url('flaticon_2.eot') format("embedded-opentype"),
+       url('flaticon.woff2') format("woff2"),
+       url('flaticon.woff') format("woff"),
+       url('flaticon.ttf') format("truetype"),
+       url('flaticon.svg') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "mflaticon";
+  src: url('mflaticon.eot');
+  src: url('mflaticon_2.eot') format("embedded-opentype"),
+       url('mflaticon.woff2') format("woff2"),
+       url('mflaticon.woff') format("woff"),
+       url('mflaticon.ttf') format("truetype"),
+       url('mflaticon.svg') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ParotiIcon';
+  src: url('fontello.eot');
+  src: url('fontello_2.eot') format('embedded-opentype'),
+       url('fontello.woff2') format('woff2'),
+       url('fontello.woff') format('woff'),
+       url('fontello.ttf') format('truetype'),
+       url('fontello.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "flaticon";
+    src: url('flaticon.svg') format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: flaticon;
+  font-style: normal;
+}
+[class^="flaticon-"], [class*=" flaticon-"]{
+  line-height: 1;
+  display: inline-block;
+}
+.elementor-icons-manager__tab__item__icon.fi{font-size: 40px;}
+
+.flaticon-email:before { content: "\f100"; }
+.flaticon-email-1:before { content: "\f101"; }
+.flaticon-pin:before { content: "\f102"; }
+.flaticon-pin-1:before { content: "\f103"; }
+.flaticon-networking:before { content: "\f104"; }
+.flaticon-photograph:before { content: "\f105"; }
+.flaticon-translation:before { content: "\f106"; }
+.flaticon-stethoscope:before { content: "\f107"; }
+.flaticon-skincare:before { content: "\f108"; }
+.flaticon-computer:before { content: "\f109"; }
+.flaticon-graphic-designer:before { content: "\f10a"; }
+.flaticon-checkmark:before { content: "\f10b"; }
+.flaticon-scrum:before { content: "\f10c"; }
+.flaticon-mission:before { content: "\f10d"; }
+.flaticon-mission-1:before { content: "\f10e"; }
+.flaticon-team:before { content: "\f10f"; }
+.flaticon-team-1:before { content: "\f110"; }
+.flaticon-increment:before { content: "\f111"; }
+.flaticon-increment-1:before { content: "\f112"; }
+.flaticon-left-arrow:before { content: "\f113"; }
+.flaticon-handshake:before { content: "\f114"; }
+.flaticon-thumbs-up:before { content: "\f115"; }
+.flaticon-thumbs-up-1:before { content: "\f116"; }
+.flaticon-creativity:before { content: "\f117"; }
+.flaticon-creativity-1:before { content: "\f118"; }
+.flaticon-invention:before { content: "\f119"; }
+.flaticon-smartphone:before { content: "\f11a"; }
+.flaticon-smartphone-1:before { content: "\f11b"; }
+.flaticon-nanotechnology:before { content: "\f11c"; }
+.flaticon-nanotechnology-1:before { content: "\f11d"; }
+.flaticon-browser:before { content: "\f11e"; }
+.flaticon-web:before { content: "\f11f"; }
+.flaticon-crowdfunding:before { content: "\f120"; }
+.flaticon-crowdfunding-1:before { content: "\f121"; }
+.flaticon-crowdfunding-2:before { content: "\f122"; }
+.flaticon-crowdfunding-3:before { content: "\f123"; }
+.flaticon-fundraise:before { content: "\f124"; }
+.flaticon-crowdfunding-4:before { content: "\f125"; }
+.flaticon-chat:before { content: "\f126"; }
+.flaticon-speech-bubble:before { content: "\f127"; }
+.flaticon-chat-1:before { content: "\f128"; }
+.flaticon-plus:before { content: "\f129"; }
+.flaticon-minus:before { content: "\f12a"; }
+.flaticon-add:before { content: "\f12b"; }
+.flaticon-search:before { content: "\f12c"; }
+.flaticon-search-1:before { content: "\f12d"; }
+.flaticon-call:before { content: "\f12e"; }
+.flaticon-email-2:before { content: "\f12f"; }
+.flaticon-location:before { content: "\f130"; }
+.flaticon-entrepreneur:before { content: "\f131"; }
+.flaticon-location-1:before { content: "\f132"; }
+.flaticon-contact:before { content: "\f133"; }
+.flaticon-pin-2:before { content: "\f134"; }
+.flaticon-share:before { content: "\f135"; }
+.flaticon-check:before { content: "\f136"; }
+.flaticon-checked:before { content: "\f137"; }
+
+/*micon*/
+[class^="micon-"]:before, [class*=" micon-"]:before,
+[class^="micon-"]:after, [class*=" micon-"]:after {   
+  font-family: mflaticon;
+  font-style: normal;
+}
+[class^="micon-"], [class*=" micon-"]{
+  line-height: 1;
+  display: inline-block;
+}
+.micon-donation:before {
+  content: "\f101";
+}
+.micon-phone:before {
+  content: "\f102";
+}
+.micon-star:before {
+  content: "\f103";
+}
+.micon-fruit:before {
+  content: "\f104";
+}
+.micon-medicine:before {
+  content: "\f105";
+}
+.micon-education:before {
+  content: "\f106";
+}
+.micon-house:before {
+  content: "\f107";
+}
+.micon-quote:before {
+  content: "\f108";
+}
+.micon-charity:before {
+  content: "\f109";
+}
+.micon-volunteer:before {
+  content: "\f10a";
+}
+.micon-debit-card:before {
+  content: "\f10b";
+}
+.micon-solidarity:before {
+  content: "\f10c";
+}
+.micon-nature:before {
+  content: "\f10d";
+}
+.micon-agronomy:before {
+  content: "\f10e";
+}
+.micon-wind-energy:before {
+  content: "\f10f";
+}
+.micon-recycling:before {
+  content: "\f110";
+}
+.micon-container:before {
+  content: "\f111";
+}
+.micon-ocean:before {
+  content: "\f112";
+}
+.micon-forest:before {
+  content: "\f113";
+}
+.micon-polar-bear:before {
+  content: "\f114";
+}
+.micon-igloo:before {
+  content: "\f115";
+}
+.micon-planet-earth:before {
+  content: "\f116";
+}
+.micon-environment:before {
+  content: "\f117";
+}
+.micon-ecological:before {
+  content: "\f118";
+}
+.micon-forest-1:before {
+  content: "\f119";
+}
+.micon-quotes:before {
+  content: "\f11a";
+}
+.micon-quote-1:before {
+  content: "\f11b";
+}
+.micon-question:before {
+  content: "\f11c";
+}
+.micon-solidarity-1:before {
+  content: "\f11d";
+}
+.micon-help:before {
+  content: "\f11e";
+}
+.micon-map:before {
+  content: "\f11f";
+}
+.micon-envelope:before {
+  content: "\f120";
+}
+
+/*paicon*/
+[class^="paicon-"]:before, [class*=" paicon-"]:before,
+[class^="paicon-"]:after, [class*=" paicon-"]:after {   
+  font-family: ParotiIcon;
+  font-style: normal;
+}
+[class^="paicon-"], [class*=" paicon-"]{
+  line-height: 1;
+  display: inline-block;
+}
+
+.paicon-cancer:before { content: '\e800'; }
+.paicon-charity:before { content: '\e801'; } 
+.paicon-family:before { content: '\e802'; } 
+.paicon-hamburger:before { content: '\e803'; } 
+.paicon-health:before { content: '\e804'; }
+.paicon-heart:before { content: '\e805'; }
+.paicon-line-chart:before { content: '\e806'; } 
+.paicon-mortarboard:before { content: '\e807'; } 
+.paicon-mosque:before { content: '\e808'; }
+.paicon-peace-1:before { content: '\e809'; }
+.paicon-peace:before { content: '\e80a'; } 
+.paicon-pet:before { content: '\e80b'; } 
+.paicon-praying:before { content: '\e80c'; } 
+.paicon-stethoscope:before { content: '\e80d'; } 
+.paicon-target:before { content: '\e80e'; } 
+.paicon-water-bottle:before { content: '\e80f'; } 
